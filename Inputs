@@ -1,0 +1,24 @@
+//import packs which allow running for inputs
+import java.util.*;
+class TSK2{
+    public static void main(String args[]){
+//create a object for receiving input
+    Scanner num = new Scanner(System.in);
+// declare all variables
+    int n1,n2,add,sub,div,mul; 
+//take input
+    System.out.println("Enter a number: ");
+    n1 = num.nextInt();
+    System.out.println("Enter another number: ");
+    n2 = num.nextInt();
+// define other variables
+    add = n1 + n2;
+    sub = n1 - n2;
+    div = n1 / n2;
+    mul = n1 * n2;
+    System.out.println("Addition: "+add);
+    System.out.println("Subtraction: "+sub);
+    System.out.println("Multiplication: "+mul);
+    System.out.println("Division: "+div);
+}
+}
