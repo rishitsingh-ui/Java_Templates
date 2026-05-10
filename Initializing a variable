@@ -1,0 +1,14 @@
+class task1{
+    void number(){
+// declare data type of variable. eg: float, int, char, double, etc.
+        int a;
+// assign value to the variable 
+        a=5;
+        System.out.println("Square:"+(a*a));
+        System.out.println("Cube:"+(a*a*a));
+    }
+    public static void main(String args[]){
+        task1 num= new task1();
+        num.number();
+    }
+}
