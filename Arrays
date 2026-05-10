@@ -1,0 +1,9 @@
+class example{
+    public static void main(String args[]){
+    String [] car = {"car1","car2","car3"};
+    
+    for(int i = 0; i < car.length; i++ ){
+    System.out.println(car[i]);
+    }   
+    }
+}
