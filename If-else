@@ -1,0 +1,25 @@
+import java.util.*;
+class TSK6 {
+        public static void main(String args[]) {
+               Scanner num = new Scanner(System.in);
+               int a,b,c;
+               System.out.println("Enter a number: ");
+               a = num.nextInt();
+               System.out.println("Enter a number: ");
+               b = num.nextInt();
+               System.out.println("Enter a number: ");
+               c = num.nextInt();
+// create a condition.
+            if (a>b && a>c) {
+                System.out.println("A is the greatest.");
+        } 
+// if previous one is false, move to next condition.
+            else if (c>a && c>b) {
+                System.out.println("C is the greatest.");
+        } 
+// last output.
+            else {
+                System.out.println("B is the greatest.");
+        }
+    }
+}
