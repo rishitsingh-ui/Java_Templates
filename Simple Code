@@ -1,0 +1,7 @@
+//create a class
+public class code{
+  public static void main(String args[]){
+//print a simple statement
+    System.out.println("Hello World");
+  }
+}
